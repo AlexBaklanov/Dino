@@ -86,7 +86,7 @@ Class mainGameClass
 		BottomDraw()
 		ObstaclesDraw()
 
-		If GameOverMode gameOverBtn.Draw(dw/2, dh/2)
+		If GameOverMode gameOverBtn.Draw(dw/2, 0)
 
 		'DrawText( bottomState, 10, 10 )
 		'DrawText( heroState, 10, 30 )
